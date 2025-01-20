@@ -21,4 +21,4 @@ Autor DanieL Cruz Vargas
 
 ---
 
-[Visita la pagina del curso] ()
+[Visita la pagina del curso] (https://dany10cruz.github.io/bit-sitio-web/)
