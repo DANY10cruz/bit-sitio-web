@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style_pagina2.css" />
+    <title>pagina2</title>
+  </head>
+  <body>
+    <!--  Barra Navegacion -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"
+          ><img
+            class="img-fluid rounded mx-auto d-block"
+            style="width: 100px"
+            src="./logo_zoologico.jpeg"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Animales</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Galeria
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Buscar"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- imagen carrusel -->
+    <div class="container mb-4">
+      <div class="carousel-container">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./imagenes_index_carrucel1/estrella mar carucel.jpg"
+                class="d-block w-100"
+                alt="Estrella de mar"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p> Descubre la increíble diversidad de especies que habitan
+                  nuestros océanos, desde diminutas plancton hasta gigantescas
+                  ballenas.</p>
+                 
+                
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./imagenes_index_carrucel1/leon carrucel.jpg"
+                class="d-block w-100"
+                alt="Leon"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>
+                  Admira la belleza y la ferocidad de los animales salvajes en
+                  su hábitat natural.
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="./imagenes_index_carrucel1/lobo carucel.jpg"
+                class="d-block w-100"
+                alt="Lobo"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>
+                  Conoce a los depredadores más temibles del reino animal y sus
+                  increíbles habilidades de caza.
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="./imagenes_index_carrucel1/nutria carrucel.jpg"
+                class="d-block w-100"
+                alt="Nutria"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>
+                  Aprende sobre las nutrias, estos mamíferos acuáticos conocidos
+                  por su pelaje denso y su comportamiento lúdico.
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="./imagenes_index_carrucel1/pinguinos carrucel.jpg"
+                class="d-block w-100"
+                alt="Pnguinos"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>
+                  Descubre cómo los pingüinos se han adaptado a la vida en el
+                  agua y sus increíbles habilidades para nadar y bucear.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Agregando botones de navegación -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleSlidesOnly"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleSlidesOnly"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección Camaleón -->
+    <div class="container">
+      <div class="animal-section">
+        <div class="row">
+          <div class="col-12">
+            <img
+              src="./imagenes_pagina2_sec1/camaleon.jpg"
+              alt="Camaleón"
+              class="animal-image"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="info-tabs">
+              <div class="d-flex gap-3 mb-3 row row-cols-sm-2">
+                <a
+                  class="btn btn-custom text-white"
+                  data-bs-toggle="collapse"
+                  href="#camaleonDesc"
+                  role="button"
+                >
+                  Descripción
+                </a>
+                <button
+                  class="btn btn-custom text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#camaleonHabitat"
+                >
+                  Hábitat
+                </button>
+                <button
+                  class="btn btn-custom text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#camaleonComp"
+                >
+                  Comportamiento
+                </button>
+              </div>
+              <div class="collapse" id="camaleonDesc">
+                <div class="card card-body">
+                  <p>
+                    El camaleón es un reptil fascinante conocido por su
+                    capacidad de cambiar de color. Posee una lengua extensible
+                    que puede ser hasta dos veces más larga que su cuerpo, lo
+                    que le permite capturar presas a distancia con gran
+                    precisión.
+                  </p>
+                </div>
+              </div>
+              <div class="collapse" id="camaleonHabitat">
+                <div class="card card-body">
+                  <p>
+                    Los camaleones habitan principalmente en bosques tropicales
+                    y subtropicales. Se les puede encontrar en África,
+                    Madagascar, sur de Europa, y algunas partes de Asia.
+                    Prefieren ambientes arbolados donde pueden moverse
+                    libremente entre las ramas.
+                  </p>
+                </div>
+              </div>
+              <div class="collapse" id="camaleonComp">
+                <div class="card card-body">
+                  <p>
+                    Son animales solitarios y territoriales. Su comportamiento
+                    más característico es el cambio de color, que utilizan para
+                    la comunicación, el camuflaje y la regulación de la
+                    temperatura corporal.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="characteristics">
+              <h3>Características</h3>
+              <p>Clase: Reptil</p>
+              <hr />
+              <h3>Hábitat</h3>
+              <p>Bosques tropicales</p>
+              <hr />
+              <h3>Alimentación</h3>
+              <p>Insectívoro</p>
+              <hr />
+              <h3>Estado</h3>
+              <p>Variable según la especie</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sección Rinoceronte -->
+      <div class="animal-section">
+        <div class="row">
+          <div class="col-12">
+            <img
+              src="./imagenes_pagina2_sec1/rinoseronte.jpg"
+              alt="Rinoceronte"
+              class="animal-image"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="info-tabs">
+              <div class="d-flex gap-3 mb-3 row row-cols-sm-2">
+                <a
+                  class="btn btn-custom text-white"
+                  data-bs-toggle="collapse"
+                  href="#rinoDesc"
+                  role="button"
+                >
+                  Descripción
+                </a>
+                <button
+                  class="btn btn-custom text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#rinoHabitat"
+                >
+                  Hábitat
+                </button>
+                <button
+                  class="btn btn-custom text-white"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#rinoComp"
+                >
+                  Comportamiento
+                </button>
+              </div>
+              <div class="collapse" id="rinoDesc">
+                <div class="card card-body">
+                  <p>
+                    El rinoceronte es uno de los mamíferos terrestres más
+                    grandes del mundo. Se caracteriza por sus cuernos
+                    distintivos y su piel gruesa. Son animales poderosos y
+                    majestuosos que pueden pesar hasta 2300 kg.
+                  </p>
+                </div>
+              </div>
+              <div class="collapse" id="rinoHabitat">
+                <div class="card card-body">
+                  <p>
+                    Los rinocerontes habitan en diversos ecosistemas africanos,
+                    desde sabanas hasta bosques densos. Necesitan áreas extensas
+                    con suficiente vegetación y acceso a fuentes de agua.
+                  </p>
+                </div>
+              </div>
+              <div class="collapse" id="rinoComp">
+                <div class="card card-body">
+                  <p>
+                    A pesar de su apariencia intimidante, son generalmente
+                    pacíficos. Son animales territoriales que marcan sus
+                    territorios y tienen rutinas diarias que incluyen
+                    alimentación y baños de barro.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="characteristics">
+              <h3>Características</h3>
+              <p>Clase: Mamífero</p>
+              <hr />
+              <h3>Hábitat</h3>
+              <p>Sabana africana</p>
+              <hr />
+              <h3>Alimentación</h3>
+              <p>Herbívoro</p>
+              <hr />
+              <h3>Estado</h3>
+              <p>En peligro de extinción</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  Sección Especies en Peligro -->
+    <div class="container py-5">
+      <h1 class="text-center mb-4"><h1>Protejamos nuestra biodiversidad.</h1>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm hover-shadow">
+            <img
+              src="./imagenes_pagina2_peligro_extincion/rana cristal.jpg"
+              class="card-img-top"
+              alt="Rana Cristal"
+            />
+            <div class="card-body p-4">
+              <h2 class="h3 mb-3">Rana Cristal</h2>
+              <p class="card-text mb-4">
+                Una especie única en peligro de extinción
+              </p>
+              <a href="#" class="btn btn-primary px-4">Leer más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm hover-shadow">
+            <img
+              src="./imagenes_pagina2_peligro_extincion/conservacion.jpg"
+              class="card-img-top"
+              alt="Conservación"
+            />
+            <div class="card-body p-4">
+              <h2 class="h3 mb-3">Conservación</h2>
+              <p class="card-text mb-4">
+                Esfuerzos para proteger especies en peligro
+              </p>
+              <a href="#" class="btn btn-primary px-4">Leer más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Formulario de Contacto -->
+    <div class="container py-5 bg-light rounded-3">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <h2 class="text-center mb-4">Contáctanos</h2>
+          <form
+            class="row g-4 p-4 bg-white shadow-sm rounded-3"
+            method="POST"
+            action="#"
+            name="contactForm"
+          >
+            <div class="col-md-6">
+              <label for="inputNombre" class="form-label fw-semibold"
+                >Nombre</label
+              >
+              <input
+                type="text"
+                class="form-control form-control-lg border"
+                id="inputNombre"
+                name="nombre"
+                required
+                placeholder="Tu nombre"
+                autocomplete="given-name"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="inputApellido" class="form-label fw-semibold"
+                >Apellido</label
+              >
+              <input
+                type="text"
+                class="form-control form-control-lg border"
+                id="inputApellido"
+                name="apellido"
+                required
+                placeholder="Tu apellido"
+                autocomplete="family-name"
+              />
+            </div>
+            <div class="col-12">
+              <label for="inputEmail" class="form-label fw-semibold"
+                >Email</label
+              >
+              <input
+                type="email"
+                class="form-control form-control-lg border"
+                id="inputEmail"
+                name="email"
+                required
+                placeholder="tu@email.com"
+                autocomplete="email"
+              />
+            </div>
+            <div class="col-md-8">
+              <label for="inputCiudad" class="form-label fw-semibold"
+                >Ciudad</label
+              >
+              <input
+                type="text"
+                class="form-control form-control-lg border"
+                id="inputCiudad"
+                name="ciudad"
+                placeholder="Tu ciudad"
+                autocomplete="address-level2"
+              />
+            </div>
+            <div class="col-md-4">
+              <label for="inputInteres" class="form-label fw-semibold"
+                >Interés</label
+              >
+              <select
+                id="inputInteres"
+                name="interes"
+                class="form-select form-select-lg border"
+                required
+              >
+                <option value="">Seleccione una opción</option>
+                <option value="mamiferos">Mamíferos</option>
+                <option value="aves">Aves</option>
+                <option value="reptiles">Reptiles</option>
+                <option value="anfibios">Anfibios</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label for="mensaje" class="form-label fw-semibold"
+                >Mensaje</label
+              >
+              <textarea
+                class="form-control border"
+                id="mensaje"
+                name="mensaje"
+                rows="4"
+                placeholder="Escribe tu mensaje aquí..."
+              ></textarea>
+            </div>
+            <div class="col-12 text-center mt-4">
+              <button type="submit" class="btn btn-primary btn-lg px-5">
+                Enviar mensaje
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
